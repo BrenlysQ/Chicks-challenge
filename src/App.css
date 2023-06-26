@@ -1,0 +1,68 @@
+#root {
+  max-width: 1980px;
+  margin: 0 auto;
+}
+
+.backGround {
+  width: 100%;
+}
+
+.containter-general{
+  margin: auto;
+  width: 80%;
+  padding-bottom: 50px;
+}
+.tilte-space{
+  padding-top: 40px;
+}
+h2,h3,h4{
+  margin: 0
+}
+
+.content-card{
+  
+  background-color: #303241;
+  margin: auto;
+}
+
+.pagination{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.square{
+  height: 30px;
+  width: 30px;
+  border: 1px solid #5764d4;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.numbers{
+  display: flex;
+  justify-content: space-between;
+}
+.square-background {
+  margin-left: 10px;
+  padding: 2px;
+  height: 30x;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #5764d4;
+}
+
+.pagination-number{
+  padding: 2px;
+  height: 30x;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
+
+

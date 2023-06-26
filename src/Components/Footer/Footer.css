@@ -1,0 +1,116 @@
+.footer-general {
+    padding-top: 50px;
+    height: 300px;
+    background-color: #303241;
+}
+
+.footer-options {
+    margin: 30px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.image-footer {
+    cursor: pointer;
+}
+
+.items-stars{
+    width: 250px;
+    display: flex;
+}
+
+.star-green{
+    margin: 1px;
+    background: #39e29d;
+    color: black;
+    padding: 6px;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.trustpilot-reviews {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.email-support{
+    margin-top: 20px ;
+    font-size: 12px;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 80%;
+}
+
+.copyRight{
+    font-size: 1em;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.item-options{
+    font-size: 1em;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.item-option{
+    font-size: 1em;
+    margin: 5px;
+    font-weight: 100;    
+}
+.solid{
+    width: 90%;
+}
+.column{
+    display: flex;
+    flex-direction: column
+}
+
+.socials{
+    display: flex;
+    justify-content:start;
+    padding-left:70px ;
+}
+.img-social{
+    padding-right:10px ;
+}
+
+@media only screen and (max-width: 1100px) {
+    .item-options{
+        font-size: 0.8em;
+        margin: 5px;
+        font-weight: bold;
+    }
+    
+    .item-option{
+        color: gray;
+        font-size: 0.7em;
+        margin: 5px;
+        font-weight: 400;
+        
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-options {
+        margin: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-general {
+        padding-top: 50px;
+        height: 450px;
+        background-color: #303241;
+    }
+
+    .items-stars{
+        padding-top: 50px;
+    }
+  }

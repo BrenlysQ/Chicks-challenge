@@ -1,0 +1,139 @@
+
+.container-general{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 20px;
+   
+}
+
+.card-item {
+    margin: 14px;
+    width: 22%;
+    height: 400px;
+    background-color: #333649;
+}
+
+.card-header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-status {
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #00ff0f;
+}
+
+.card-status-general {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-quantity {
+    text-align: center;
+    color: #00ff0f;
+    margin-top: 30px;
+    width: 60px;
+    height: 40px;
+}
+
+.status-text {
+    text-align: center;
+    margin: 0
+}
+
+.status-stock-text {
+    
+    text-align: center;
+    color: #00ff0f;
+    margin: 0
+}
+
+.container-image{
+    margin-top: 15px
+}
+
+.image {
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+.container-detail {
+    margin-left: 30px;
+}
+
+.detail-text {
+    color: gray
+}
+
+.price-text {
+    font-weight: 200;
+}
+
+.container-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-details{
+    background: #35384b;
+    color: white ;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button-add {
+    background: #5764d4;
+    color: white ;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .card-item {
+        margin: 14px;
+        width: 30%;
+        height: 400px;
+        background-color: #333649;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .card-item {
+        margin: 14px;
+        width: 45%;
+        height: 400px;
+        background-color: #333649;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card-item {
+        margin: 14px;
+        width: 44%;
+        height: 400px;
+        background-color: #333649;
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    .card-item {
+        margin: 14px;
+        width: 90%;
+        height: 400px;
+        background-color: #333649;
+    }
+  }
+  

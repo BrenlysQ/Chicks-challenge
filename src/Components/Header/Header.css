@@ -1,0 +1,138 @@
+
+.nav-general{    
+    height: 80px;
+    background: #303241;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    width: 80%;
+    align-items: center;
+}
+
+.nav-items-last{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px ;
+    height: 80px;
+    width: 50%;
+    align-items: center;
+}
+
+.item{
+    font-size: 0.8em;
+    margin: 0 10px;
+    cursor: pointer;
+    height: 20%;
+}
+
+.itemAlt {
+   display: none;
+}
+
+.item-last{
+    margin: 0 10px;
+    font-size: 0.8em;
+}
+
+.image-header{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.divider{
+    border-left: 1px solid white;
+    height: 50%;
+}
+.button-green{
+    background: #39e29d;
+    color: black ;
+    padding: 6px;
+    border-radius: 5px;
+}
+.image-header{
+    margin-left: 20px;
+    width: 200px;
+}
+
+
+@media (max-width: 1000px) {
+    .image-header{
+        width: 130px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .image-header{
+        width: 130px;
+    }
+      .nav-items {
+          position: absolute;
+          top: 80px;
+          left: 0;
+          background: #303241;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: -webkit-fill-available;
+          transform: translateX(-100%);
+          transition: 0.3s ease all;
+      }
+
+      .nav-items.open {
+          transform: translateX(0) !important
+      }
+
+      .nav-toggle {
+          display: flex !important;
+          flex-direction: column;
+          margin: 15px;
+          justify-content: center;
+      }
+
+      .nav-toggle span {
+          width: 30px;
+          height: 4px;
+          background: white;
+          margin-bottom: 5px;
+          border-radius: 2px;
+          transform-origin: 5px 0px;
+          transition: all 0.2s linear;
+      }
+
+      .nav-toggle.open>span {
+          transform: rotate(45deg) translate(0px, 0px);
+      }
+
+      .nav-toggle.open>span:nth-child(2) {
+          display: none;
+      }
+
+      .nav-toggle.open>span:nth-child(3) {
+          transform: rotate(-45deg) translate(-5px, 1px);
+      }
+
+    .divider{
+       display: none;
+    }
+    .itemAlt {
+        display: block;
+     }
+
+    .item-last{
+        display: none;
+    }
+
+    .item{
+        margin: 0 10px;
+        height: auto;
+        cursor: pointer;
+       
+    }
+}

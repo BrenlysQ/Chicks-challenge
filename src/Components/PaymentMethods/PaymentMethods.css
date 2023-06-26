@@ -1,0 +1,28 @@
+.payment-general{
+    padding-top: 50px;
+    height: 80px;
+    background-color: #2a2c3b;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 70px;
+   
+}
+
+.img-payments{
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .payment-general{
+        height: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    
+    .img-payments{
+        padding: 20px;
+        width: 60px;
+    }
+  }
